@@ -2,7 +2,7 @@
   "name": "imp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://MohamadZeyad.github.io/Monsters-App",
+  "homepage": "https://MohamadZeyad.github.io/Monsters-App",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
