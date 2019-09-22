@@ -1,8 +1,21 @@
 .card-list {
-  width: 85vw;
+  width: 90vw;
 
   margin: 0 auto;
+  /* background-color: black; */
+  /* text-align: center; */
+  /* margin-left: 100px; */
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .card-list {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    grid-gap: 20px;
+  }
 }
